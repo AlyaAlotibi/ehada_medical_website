@@ -1,0 +1,76 @@
+:root{
+    --primary-color: #4458dc;
+    --primary-color2: #854fee;
+    --title-color: #141313;
+    --text-color: #777777;  
+    --border-color: #201f1f17;  
+    --gradient-color: linear-gradient(90deg, #9cc062 0%, #5f8133 100%);
+    --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
+    --box-shadow: 0px 10px 30px rgba(72, 83, 69, 0.205);
+   
+
+   
+} 
+body{
+    background-color: #f8faf4;
+    font-family: 'Amiri', serif;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-link{
+    color: black;
+}
+.navbar-default { margin : 0 !important; }
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+
+}
+
+.header_area .main-menu .navbar{
+z-index: 99;
+    
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px ;
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+.content{
+    margin-top: 100px;
+    
+}
+
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}

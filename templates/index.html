@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% block title%}
+<title>
+الصفحةالرئيسية
+</title>{% endblock %}
+{% block style %}
+<link rel="stylesheet" href="{{url_for('static', filename='card.css')}}">
+{% endblock %}
+{% block content %}
+<main class="site-main">
+
+
+  <!--  ======================= Start Banner Area =======================  -->
+  <section class="site-banner">
+      <div class="container">
+          <div class="row" id="home">
+              <div class="col-lg-12 col-md-12 site-title" id="img-front">
+                  <div class="divtext">
+                  <h3 class="title-text" id="textD">
+                      نهدف من خلال <b>إحاطة</b> الى ان نمد يد العون للمرضى المتواجدين خارج أسرة المستشفيات ،ونحيطهم بأيادينا المراعية لتسهيل نمط عيشهم من خلال العديد من الخدمات من هنا نبدأ تجربة مستقبلية تسعى إلى امتداد الرعاية الصحية و النفسية إلى بعدٍ آخر يتعدى الحدود المكانية و الزمانية حيث تعمل على بناء قاعدة تثقيف صحية واسعة من خلال موقع الكتروني تتوفر فيه خدمات للمرضى خارج المستشفى سواء للمعتنيين بهم أو لهم شخصيًا ،حيث توفر المنصة العديد من الخدمات كخدمة التثقيف وخدمة منتدى تبادل الخبرات ، يقودها الأقران تحت إشراف وتوجيه طبي مقنن و مدعم بالمنتجات الطبية .
+                  </h3></div>
+                  
+              </div>
+             
+          </div>
+      </div>
+  </section>
+  <div class="row"><br><br><br><br></div>
+  <section class="about-area" id="about">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <div class="about-title">
+                    <h1 class="text-uppercase title-h1">من نحن </h1>
+                    <p class="para">
+                      كأفراد في المجال الصحي نرى أهمية مجالنا في توفير الخدمات وتحسين جودة حياة ‏الإنسان  الذي يكون في اضعف حالاته كمريض
+                      ومن مسؤوليتنا اتجاه المجتمع نبدأ ‏مشروعنا احاطة لنحيط بمرضانا خارج نطاق الزمان والمكان نفسيًا و ماديًا و صحيًا لتجربة انسانية على أعلى النطاقات .
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="services-area">
+    <div class="container">
+        <div class="row" id="services">
+            <div class="col-lg-12 text-center services-title">
+                <h1 class="text-uppercase title-text">خدماتنا</h1>
+                <p class="para">
+                    
+                </p>
+            </div>
+        </div>
+        <div class="container services-list">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="services">
+                        <div class="sevices-img text-center py-4">
+                            <img src="../static/awarr.png" alt="Services-1" style="height: 150px;">
+                        </div>
+                        <div class="card-body text-center">
+                          <a href="/awareness">
+                            <h5 class="card-title text-uppercase font-roboto">التثقيف</h5></a>
+                            <p class="card-text text-secondary">
+                                نهدف في هذه الخدمة الى إيصال المعلومات بعدد من الوسائل المرئية كالمقاطع التوعوية المخصصه لذوي المرضى ففي ( قسم إعتني بمريضك )نأمل ان نكون مرجع لهم للتعامل مع المرضى بأصح و افضل الطرق .
+أو (قسم متلازمة التهاب الامعاء الناحي ) ففي هذا القسم سنتحدث عن المرض ونوضح ماهيته و كيف نتعامل معه من خلال نمط حياة و أكل متوازن .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="services">
+                        <div class="sevices-img text-center py-4">
+                            <img src="../static/iconhelp.png" alt="Services-2" style="height: 150px;">
+                        </div>
+                        <div class="card-body text-center"><a href="/help_tools">
+                            <h5 class="card-title text-uppercase font-roboto">ادوات العناية المساعدة</h5></a>
+                            <p class="card-text text-secondary">
+                                في هذه الخدمة نحاول تجميع الادوات المساعدة التي قد تسهل على المرضى ومن يعتنون بهم الحياة اليومية والتي سنحرص ان تكون ذات جودة وشكل جمالي يحسن من نفسية المريض .
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="services">
+                        <div class="sevices-img text-center py-4">
+                            <img src="../static/s6.png" alt="Services-3" height="100px">
+                        </div>
+                        <div class="card-body text-center"><a href="/donation">
+                            <h5 class="card-title text-uppercase font-roboto">التبرع</h5></a>
+                            <p class="card-text text-secondary">
+                                سينقسم على قسمين:<br>
+الاول : التبرع بالادوات، من خلال ملاحظتنا في مواقع التواصل ف بعد شفاء المريض او وفاته لا سمح الله يعرض سرير او كرسي المريض او الى ما ذلك من الادوات في مواقع التواصل فعند وجود منصة تسهل عرض هذه الادوات حسب المدينة سيصبح الموضوع سهلاً و ذو كفاءة اكبر 
+القسم الثاني : يختص ب التبرع المالي لدعم الدراسات او قسم الادوات ( بعد الموافقه عليه من الجهات المختصه )
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="services">
+                        <div class="sevices-img text-center py-4">
+                            <img src="../static/s5.png" alt="Services-4">
+                        </div>
+                        <div class="card-body text-center"><a href="/clinical_trials">
+                            <h5 class="card-title text-uppercase font-roboto">التجارب السريرية </h5></a>
+                            <p class="card-text text-secondary">
+                                هذه الخدمة من اهم الخدمات التي ستحدث قفزة في تطور الدراسات في المملكة فهي ستسهل على الباحثين الوصل للعينة دون تحيز و ستسهل على المرضى الذين لديهم استعداد للمشاركة في الدراسات .
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="services">
+                        <div class="sevices-img text-center py-4">
+                            <img src="../static/s7.png" alt="Services-4" height="150px">
+                        </div>
+                        <div class="card-body text-center">
+                          <a href="/societies">
+                            <h5 class="card-title text-uppercase font-roboto">المجتمع (منتدى تبادل الخبرات) </h5></a>
+                            <p class="card-text text-secondary">
+                                هُنا و تحت إشراف طبي سيكون مُنتدى يتبادل فيه المرضى خِبراتهم و معلوماتهم  فنكون  كالبنيان يشدُ بعضه بعضاً مما يحسن من شعور المريض فيجد نفسه محاطاً بمن يمُرون بما يمر به و يستشعر الاطمئنان .
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="row" id="contact">
+
+</div>
+{% endblock %}
